@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/MNbackground.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -89,7 +89,7 @@ header .profile-image:hover {
   color: yellow;
 }
 .card {
-  margin: 30px;
+  margin: 30px ;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
@@ -102,22 +102,54 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
+.card-two {
+  margin: 30px ;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: rgb(196, 228, 54);
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card-two:hover {
+  border-color: #ff99ff;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
 }
 
 .skills li {
-  border-radius: 6px;
+  border-radius: 50px;
   display: inline-block;
-  background: #ff9904;
-  color: white;
+  /*color: white;*/
   padding: 5px 10px;
   margin: 2px;
+  background-size: 30px 30px;
 }
 
+/*  **EVERY OTHER**   (use numbers for picking individual child items)
 .skills li:nth-child(odd) {
   background: #0399ff;
+}*/
+
+/* SKILLS BACKGROUND COLORS*/
+.skills li.html{ 
+  background-image: url(images/html-logo.svg);
+}
+.skills li.css{ 
+  background-image: url(images/css-logo.svg);
+}
+.skills li.js{ 
+  background-image: url(images/js-logo.svg);
+}
+.skills li.drupal{ 
+  background-image: url(images/drupal-logo.svg);
+}
+.skills li.mac{ 
+  background-image: url(images/mac-logo.svg);
 }
 
 footer {
