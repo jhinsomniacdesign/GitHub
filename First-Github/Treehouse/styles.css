@@ -7,9 +7,9 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: Palatino;
   color: #222;
-  background: #f7f5f0;
+  background: #572275;
 }
 /* Link Styles */
 
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #572275;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -80,20 +80,20 @@ header .profile-image:hover {
   background-color: #efefef;
   color: black;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 35px;
   display: table;
   margin: 10px auto;
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: #FADA28;
 }
 .card {
   margin: 30px ;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: #FADA28;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
@@ -107,7 +107,7 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: rgb(196, 228, 54);
+  background: #FADA28;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
@@ -117,17 +117,24 @@ header .profile-image:hover {
 }
 
 ul.skills {
-  padding: 0;
+  padding: 0 30px;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .skills li {
-  border-radius: 50px;
-  display: inline-block;
-  /*color: white;*/
-  padding: 5px 10px;
-  margin: 2px;
-  background-size: 30px 30px;
+  border-radius: 10px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 2px;
+    background: #d3b81e;
+    background-size: 120px 120px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
 }
 
 /*  **EVERY OTHER**   (use numbers for picking individual child items)
@@ -135,30 +142,21 @@ ul.skills {
   background: #0399ff;
 }*/
 
-/* SKILLS BACKGROUND COLORS*/
-.skills li.html{ 
-  background-image: url(images/html-logo.svg);
-}
-.skills li.css{ 
-  background-image: url(images/css-logo.svg);
-}
-.skills li.js{ 
-  background-image: url(images/js-logo.svg);
-}
-.skills li.drupal{ 
-  background-image: url(images/drupal-logo.svg);
-}
-.skills li.mac{ 
-  background-image: url(images/mac-logo.svg);
+.skills li img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
 }
 
 footer {
+  margin-top: 50px;
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 20px 0 20px 20px;
 }
 
 footer .copyright {
+  color: white;
   top: -8px;
   font-size: .75em;
 }
@@ -180,7 +178,6 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .4;
   transition: all .5s;
 }
 a.twitter {
@@ -232,7 +229,7 @@ a.social:hover {
   footer {
     font-size: 1.3em;
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 60px auto 20px;
   }
 
 }
