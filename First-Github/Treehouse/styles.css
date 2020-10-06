@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+.top-nav {
   width: 100%;
   background: #572275;
   min-height: 30px;
@@ -31,7 +31,7 @@ a:hover {
   position: fixed;
   text-align: center;
 }
-.nav {
+.nav-list {
   display: flex;
   justify-content: space-around;
   font-weight: 700;
@@ -40,18 +40,18 @@ a:hover {
   padding: 0;
 }
 
-.nav .name {
+.nav-list .nav-links {
     display: block;
     margin-right: auto;
     color: white;
 }
-.nav li {
+.nav-list li {
   padding: 5px 10px 10px 10px;
 }
-.nav a {
+.nav-list a {
   transition: all .5s;
 }
-.nav a:hover {
+.nav-list a:hover {
   color: white
 }
 
@@ -66,54 +66,55 @@ header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 6px solid #FADA28;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.1) rotate(5deg);
 }
-.tag {
-  background-color: #efefef;
+.heading {
+  background-color: #FADA28;
   color: black;
   padding: 10px;
   border-radius: 35px;
   display: table;
   margin: 10px auto;
 } 
-.location {
+.sub-heading {
   background-color: #222;
   color: #FADA28;
 }
-.card {
+.left-card {
   margin: 30px ;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
   background: #FADA28;
-  border-bottom: 4px solid #ccc;
+  border-bottom: 4px solid #000;
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
-  border-color: #ff99ff;
+.left-card:hover {
+  border-color: #fff;
 }
 
-.card-two {
+.right-card {
   margin: 30px ;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
   background: #FADA28;
-  border-bottom: 4px solid #ccc;
+  border-bottom: 4px solid #000;
   border-radius: 6px;
   transition: all .5s;
 }
-.card-two:hover {
-  border-color: #ff99ff;
+.right-card:hover {
+  border-color: #fff;
 }
 
 h2 {
@@ -216,7 +217,7 @@ a.social:hover {
     min-height: 470px;
   }
 
-  .nav {
+  .nav-list {
     max-width: 1200px;
     padding: 0 30px;
   }
