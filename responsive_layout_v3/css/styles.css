@@ -1,0 +1,55 @@
+
+/* Main Styles */
+
+* {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FAFAFA;
+    color: #4A4A4A
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+footer {
+    border-top: 2px solid #E7E7E7;
+}
+
+/* Class Styles */
+
+.title {
+  text-align: center;
+}
+
+.profile-text  {    
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.nav-menu {
+    text-align: center;
+    padding: 0;
+    margin: 20px auto;
+}
+
+.nav-links {
+    text-transform: uppercase;
+    list-style-type: none;
+    background-color: #FFF;
+    padding: 10px 0;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.profile-img {
+    max-width: 200px;
+    margin: 20px auto;
+}
+
+.portfolio-img {
+    max-width: 280px;
+    margin: 0 auto;
+}
